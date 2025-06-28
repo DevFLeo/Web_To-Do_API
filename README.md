@@ -75,7 +75,7 @@ dotnet ef database update
 # 5. Executa a aplicação
 dotnet run
 ```
-A API estará disponível em `http://localhost:5024` (a porta será indicada na consola) e a interface web estará em `https://localhost:7253/index.html`.
+A API estará disponível em `http://localhost:5024` (a porta será indicada no console) e a interface web estará em `https://localhost:7253/index.html`.
 
 ## O que Aprendi
 
