@@ -1,0 +1,12 @@
+# Ficheiros de dependências e pacotes gerados pelo compilador
+**/[Bb]in/
+**/[Oo]bj/
+
+# Ficheiros de configuração do Visual Studio
+.vs/
+*.suo
+*.user
+
+# Base de dados SQLite (não deve ir para o repositório)
+*.db
+*.db-journal

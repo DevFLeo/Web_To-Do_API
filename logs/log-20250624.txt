@@ -1,0 +1,880 @@
+2025-06-24 15:22:32.774 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 15:22:33.748 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 15:22:33.751 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 15:22:33.839 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 15:22:33.844 -04:00 [INF] Hosting environment: Development
+2025-06-24 15:22:33.844 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 15:22:35.334 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 15:22:35.563 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 241.7744ms
+2025-06-24 15:22:35.624 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 15:22:35.768 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 143.943ms
+2025-06-24 15:22:35.857 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/swagger-ui.css - null null
+2025-06-24 15:22:35.923 -04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-24 15:22:35.973 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/swagger-ui.css - 499 152034 text/css 116.0004ms
+2025-06-24 15:22:36.134 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 15:22:36.134 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 15:22:36.184 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 49.6618ms
+2025-06-24 15:22:36.245 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.8014ms
+2025-06-24 15:22:37.605 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 15:22:37.639 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.7326ms
+2025-06-24 15:24:01.712 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7253/api/Tarefas - application/json 95
+2025-06-24 15:24:01.727 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio)'
+2025-06-24 15:24:01.760 -04:00 [INF] Route matched with {action = "PostTarefa", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TodoApiPortfolio.DTOs.TarefaDto]] PostTarefa(TodoApiPortfolio.DTOs.CriarTarefaDto) on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 15:24:02.156 -04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-24 15:24:02.193 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio) in 428.9267ms
+2025-06-24 15:24:02.194 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio)'
+2025-06-24 15:24:02.204 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7253/api/Tarefas - 400 null application/problem+json; charset=utf-8 491.619ms
+2025-06-24 15:24:09.668 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7253/api/Tarefas - application/json 95
+2025-06-24 15:24:09.672 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio)'
+2025-06-24 15:24:09.673 -04:00 [INF] Route matched with {action = "PostTarefa", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TodoApiPortfolio.DTOs.TarefaDto]] PostTarefa(TodoApiPortfolio.DTOs.CriarTarefaDto) on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 15:24:09.685 -04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-24 15:24:09.687 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio) in 13.0733ms
+2025-06-24 15:24:09.690 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio)'
+2025-06-24 15:24:09.692 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7253/api/Tarefas - 400 null application/problem+json; charset=utf-8 24.0592ms
+2025-06-24 15:24:20.320 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7253/api/Tarefas - application/json 94
+2025-06-24 15:24:20.324 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio)'
+2025-06-24 15:24:20.325 -04:00 [INF] Route matched with {action = "PostTarefa", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TodoApiPortfolio.DTOs.TarefaDto]] PostTarefa(TodoApiPortfolio.DTOs.CriarTarefaDto) on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 15:24:21.441 -04:00 [INF] Executed DbCommand (22ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Tarefas" ("DataDeValidade", "Feito", "Prioridade", "Titulo")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2025-06-24 15:24:21.500 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'TodoApiPortfolio.DTOs.TarefaDto'.
+2025-06-24 15:24:21.524 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio) in 1197.5544ms
+2025-06-24 15:24:21.525 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio)'
+2025-06-24 15:24:21.541 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7253/api/Tarefas - 201 null application/json; charset=utf-8 1221.1734ms
+2025-06-24 15:44:53.780 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 15:44:56.275 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 15:44:56.280 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 15:44:56.436 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 15:45:09.346 -04:00 [INF] Hosting environment: Development
+2025-06-24 15:45:09.348 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 15:45:09.496 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 15:46:47.696 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 15:46:50.000 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 15:46:50.010 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 15:46:50.244 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 15:46:50.268 -04:00 [INF] Hosting environment: Development
+2025-06-24 15:46:50.269 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 15:47:52.078 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 15:47:53.723 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 15:47:53.736 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 15:50:20.564 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 15:50:22.356 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 15:50:22.363 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 15:50:22.546 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 15:50:22.564 -04:00 [INF] Hosting environment: Development
+2025-06-24 15:53:51.276 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 15:53:52.714 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 15:53:52.720 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 15:55:20.580 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 15:55:22.028 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 15:55:22.032 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 15:55:22.167 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 15:55:22.192 -04:00 [INF] Hosting environment: Development
+2025-06-24 15:55:22.193 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 15:59:23.626 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 15:59:25.458 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 15:59:25.467 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 15:59:25.618 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 15:59:25.651 -04:00 [INF] Hosting environment: Development
+2025-06-24 15:59:34.336 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 15:59:34.471 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 15:59:34.858 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\bin\Debug\net8.0\TodoApiPortfolio.xml'.
+File name: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\bin\Debug\net8.0\TodoApiPortfolio.xml'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass37_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at TodoApiPortfolio.Program.<>c.<Main>b__0_1(SwaggerGenOptions options) in C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\Program.cs:line 62
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-24 15:59:34.984 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 500 null text/html; charset=utf-8 522.0086ms
+2025-06-24 15:59:35.125 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 15:59:35.125 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 15:59:35.146 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 20.7559ms
+2025-06-24 15:59:35.221 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.649ms
+2025-06-24 15:59:35.329 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/favicon.ico - null null
+2025-06-24 15:59:35.395 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\bin\Debug\net8.0\TodoApiPortfolio.xml'.
+File name: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\bin\Debug\net8.0\TodoApiPortfolio.xml'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass37_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at TodoApiPortfolio.Program.<>c.<Main>b__0_1(SwaggerGenOptions options) in C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\Program.cs:line 62
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-24 15:59:35.427 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/favicon.ico - 500 null text/plain; charset=utf-8 98.1117ms
+2025-06-24 16:01:56.803 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:01:58.411 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:01:58.417 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:01:58.588 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:01:58.592 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:01:58.592 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:01:59.797 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:02:00.136 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\bin\Debug\net8.0\TodoApiPortfolio.xml'.
+File name: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\bin\Debug\net8.0\TodoApiPortfolio.xml'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass37_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at TodoApiPortfolio.Program.<>c.<Main>b__0_1(SwaggerGenOptions options) in C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\Program.cs:line 62
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-24 16:02:00.219 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 500 null text/html; charset=utf-8 438.0204ms
+2025-06-24 16:02:00.288 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:02:00.288 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:02:00.302 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 14.1688ms
+2025-06-24 16:02:00.364 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.0333ms
+2025-06-24 16:03:11.937 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:03:13.529 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:03:13.534 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:03:13.845 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:03:14.594 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:03:14.619 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:03:14.699 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:03:15.007 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 325.8835ms
+2025-06-24 16:03:15.087 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:03:15.292 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 205.0689ms
+2025-06-24 16:03:15.325 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/swagger-ui.css - null null
+2025-06-24 16:03:15.407 -04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-24 16:03:15.408 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/swagger-ui.css - 499 152034 text/css 84.128ms
+2025-06-24 16:03:15.575 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:03:15.579 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:03:15.645 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 66.1612ms
+2025-06-24 16:03:15.724 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 149.7384ms
+2025-06-24 16:03:15.758 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/favicon-16x16.png - null null
+2025-06-24 16:03:15.770 -04:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2025-06-24 16:03:15.771 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/favicon-16x16.png - 499 665 image/png 12.9126ms
+2025-06-24 16:03:16.614 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:03:16.857 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 242.2976ms
+2025-06-24 16:04:02.269 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:04:04.970 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:04:05.056 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:04:05.330 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:04:05.476 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:04:05.591 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:04:06.183 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:04:06.437 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 267.6749ms
+2025-06-24 16:04:06.467 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:04:06.703 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 236.6224ms
+2025-06-24 16:04:07.045 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:04:07.086 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:04:07.166 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 79.9396ms
+2025-06-24 16:04:07.205 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 160.0493ms
+2025-06-24 16:04:08.586 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:04:08.628 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.7555ms
+2025-06-24 16:06:16.609 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:06:18.883 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:06:18.891 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:06:19.064 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:06:19.068 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:06:19.069 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:06:20.775 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:06:21.028 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 263.9619ms
+2025-06-24 16:06:21.045 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:06:21.282 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 236.3133ms
+2025-06-24 16:06:21.567 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:06:21.710 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:06:22.021 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 310.5341ms
+2025-06-24 16:06:22.561 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 993.8171ms
+2025-06-24 16:06:23.250 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:06:23.486 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 235.203ms
+2025-06-24 16:14:21.639 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:14:23.494 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:14:23.505 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:14:23.676 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:14:23.741 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:14:23.871 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:14:24.822 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:14:25.078 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 266.3803ms
+2025-06-24 16:14:25.107 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:14:25.235 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 128.1167ms
+2025-06-24 16:14:25.355 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:14:25.356 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:14:25.448 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 91.878ms
+2025-06-24 16:14:25.525 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 170.0261ms
+2025-06-24 16:14:26.361 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:14:26.512 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 151.1269ms
+2025-06-24 16:15:44.669 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:15:46.468 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:15:46.481 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:15:46.778 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:15:46.958 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:15:46.961 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:15:47.463 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:15:47.724 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 277.172ms
+2025-06-24 16:15:47.745 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:15:47.933 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 188.7131ms
+2025-06-24 16:15:48.179 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:15:48.180 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:15:48.301 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 120.9516ms
+2025-06-24 16:15:48.413 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 233.9328ms
+2025-06-24 16:15:50.090 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:15:50.123 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.5575ms
+2025-06-24 16:16:26.027 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:16:26.168 -04:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\index.html'
+2025-06-24 16:16:26.265 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:16:26.265 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:16:26.290 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 200 null text/html 263.5595ms
+2025-06-24 16:16:26.349 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 83.6364ms
+2025-06-24 16:16:26.380 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 114.9786ms
+2025-06-24 16:18:01.201 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:18:01.210 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 5.1575ms
+2025-06-24 16:18:38.116 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:18:38.133 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:18:38.135 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 18.2868ms
+2025-06-24 16:18:38.335 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:18:38.335 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:18:38.407 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 71.3407ms
+2025-06-24 16:18:38.469 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.6607ms
+2025-06-24 16:19:11.485 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:19:11.511 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:19:11.525 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 40.0533ms
+2025-06-24 16:19:11.634 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:19:11.635 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:19:11.654 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 19.2127ms
+2025-06-24 16:19:11.672 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.5034ms
+2025-06-24 16:19:54.528 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:19:54.572 -04:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\index.html'
+2025-06-24 16:19:54.573 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 200 null text/html 44.7382ms
+2025-06-24 16:19:54.696 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:19:54.697 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:19:54.709 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:19:54.722 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 13.3512ms
+2025-06-24 16:19:54.742 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.2301ms
+2025-06-24 16:19:54.771 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:19:54.779 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 1022 text/javascript 82.4061ms
+2025-06-24 16:20:03.057 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:20:04.573 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:20:04.583 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:20:04.718 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:20:04.790 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:20:04.791 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:20:05.596 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:20:05.784 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 198.3584ms
+2025-06-24 16:20:05.811 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:20:05.979 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 168.2895ms
+2025-06-24 16:20:06.196 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:20:06.197 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:20:06.241 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 42.2326ms
+2025-06-24 16:20:06.293 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.1377ms
+2025-06-24 16:20:07.258 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:20:07.344 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.9277ms
+2025-06-24 16:20:17.043 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:20:17.054 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 11.4894ms
+2025-06-24 16:20:17.104 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:20:17.105 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:20:17.124 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 18.8151ms
+2025-06-24 16:20:17.144 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.5249ms
+2025-06-24 16:20:21.829 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:20:23.648 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:20:23.654 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:20:23.757 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:20:23.763 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:20:23.828 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:20:24.870 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:20:25.053 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 193.7273ms
+2025-06-24 16:20:25.074 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:20:25.149 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 74.7878ms
+2025-06-24 16:20:25.238 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:20:25.238 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:20:25.314 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 76.711ms
+2025-06-24 16:20:25.535 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 297.6327ms
+2025-06-24 16:20:26.641 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:20:26.692 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.29ms
+2025-06-24 16:20:40.497 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:20:40.556 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:20:40.558 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 60.8515ms
+2025-06-24 16:20:40.697 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:20:40.698 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:20:40.698 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:20:40.877 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:20:40.912 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 214.3258ms
+2025-06-24 16:20:40.984 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 950 text/javascript 286.8181ms
+2025-06-24 16:20:40.988 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 290.2206ms
+2025-06-24 16:20:41.425 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:20:41.450 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:20:41.496 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:20:43.330 -04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:20:43.544 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:20:43.593 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 2083.3691ms
+2025-06-24 16:20:43.594 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:20:43.609 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 2184.6716ms
+2025-06-24 16:25:13.939 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:25:13.959 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:25:13.959 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 20.6775ms
+2025-06-24 16:25:14.086 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:25:14.086 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:25:14.088 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:25:14.097 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 11.6671ms
+2025-06-24 16:25:14.161 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:25:14.164 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.8421ms
+2025-06-24 16:25:14.180 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 2208 text/javascript 94.215ms
+2025-06-24 16:26:40.306 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:26:40.333 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:26:40.335 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 28.7995ms
+2025-06-24 16:26:40.417 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:26:40.426 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:26:40.438 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:26:40.446 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 11.3945ms
+2025-06-24 16:26:40.489 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:26:40.510 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 2288 text/javascript 93.5583ms
+2025-06-24 16:26:40.520 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.7004ms
+2025-06-24 16:27:32.223 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:27:34.782 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:27:34.787 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:27:34.993 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:27:37.695 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:27:37.745 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:27:37.971 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:27:38.233 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 546.219ms
+2025-06-24 16:27:38.270 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:27:38.465 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 195.1986ms
+2025-06-24 16:27:38.633 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:27:38.633 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:27:38.707 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 74.1614ms
+2025-06-24 16:27:39.135 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 501.9853ms
+2025-06-24 16:27:39.838 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:27:39.990 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 152.4767ms
+2025-06-24 16:28:02.570 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:28:02.608 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:28:02.618 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 47.6024ms
+2025-06-24 16:28:02.737 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:28:02.746 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:28:02.754 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:28:02.765 -04:00 [INF] The file /js/site.js was not modified
+2025-06-24 16:28:02.783 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 304 null text/javascript 45.679ms
+2025-06-24 16:28:02.784 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 29.8992ms
+2025-06-24 16:28:02.821 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.922ms
+2025-06-24 16:28:18.259 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:28:18.271 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:28:18.271 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 12.8621ms
+2025-06-24 16:28:18.420 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:28:18.420 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:28:18.421 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:28:18.522 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:28:18.547 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 124.8438ms
+2025-06-24 16:28:18.554 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 2285 text/javascript 133.7994ms
+2025-06-24 16:28:18.600 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 179.8319ms
+2025-06-24 16:28:19.040 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:28:19.051 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:28:19.096 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:28:20.509 -04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:28:20.606 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:28:20.649 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 1471.5534ms
+2025-06-24 16:28:20.651 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:28:20.665 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 1625.5173ms
+2025-06-24 16:28:40.500 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:28:40.517 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:28:40.520 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 20.1478ms
+2025-06-24 16:28:40.668 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:28:40.686 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:28:40.675 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:28:40.694 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 7.6404ms
+2025-06-24 16:28:40.771 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:28:40.883 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 207.8875ms
+2025-06-24 16:28:40.887 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 2283 text/javascript 218.6406ms
+2025-06-24 16:29:30.277 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:29:30.292 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:29:30.294 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 16.4362ms
+2025-06-24 16:29:30.419 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:29:30.423 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:29:30.429 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:29:30.457 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 28.8988ms
+2025-06-24 16:29:30.461 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.8678ms
+2025-06-24 16:29:30.471 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:29:30.479 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 2268 text/javascript 59.777ms
+2025-06-24 16:29:31.475 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:29:31.505 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:29:31.506 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:29:31.541 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:29:31.545 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:29:31.549 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 41.5716ms
+2025-06-24 16:29:31.557 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:29:31.558 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 82.948ms
+2025-06-24 16:29:42.488 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:29:45.001 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:29:45.045 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:29:45.343 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:29:45.356 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:29:45.843 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:29:46.006 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:29:46.377 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 383.9298ms
+2025-06-24 16:29:46.535 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:29:47.131 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 596.0744ms
+2025-06-24 16:29:47.441 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:29:47.444 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:29:47.580 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 138.5353ms
+2025-06-24 16:29:48.925 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1533.712ms
+2025-06-24 16:29:51.109 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:29:51.155 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.8693ms
+2025-06-24 16:30:06.268 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:30:06.270 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:30:06.270 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:30:06.373 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 109.1593ms
+2025-06-24 16:30:06.397 -04:00 [INF] The file /js/site.js was not modified
+2025-06-24 16:30:06.457 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 186.9377ms
+2025-06-24 16:30:06.458 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 304 null text/javascript 188.1224ms
+2025-06-24 16:30:06.559 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:30:06.976 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:30:07.035 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:30:08.814 -04:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:30:09.041 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:30:09.088 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 1995.8719ms
+2025-06-24 16:30:09.105 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:30:09.121 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 2562.1129ms
+2025-06-24 16:31:22.693 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:31:22.726 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:31:22.727 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 33.4855ms
+2025-06-24 16:31:22.809 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:31:22.811 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:31:22.815 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:31:22.835 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.7593ms
+2025-06-24 16:31:22.847 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 31.5536ms
+2025-06-24 16:31:22.879 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:31:22.880 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 2515 text/javascript 71.1988ms
+2025-06-24 16:31:37.923 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:31:39.678 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:31:39.683 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:31:39.838 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:31:39.910 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:31:39.912 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:31:41.160 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:31:41.354 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 206.3566ms
+2025-06-24 16:31:41.385 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:31:41.544 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 159.1936ms
+2025-06-24 16:31:41.759 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:31:41.760 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:31:41.775 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 15.5546ms
+2025-06-24 16:31:41.982 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 222.5206ms
+2025-06-24 16:31:43.693 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:31:43.732 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.6288ms
+2025-06-24 16:31:47.411 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:31:47.411 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:31:47.412 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:31:47.442 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 29.9411ms
+2025-06-24 16:31:47.442 -04:00 [INF] The file /js/site.js was not modified
+2025-06-24 16:31:47.468 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.2352ms
+2025-06-24 16:31:47.469 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 304 null text/javascript 57.6445ms
+2025-06-24 16:33:05.123 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:33:05.171 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:33:05.173 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 50.0552ms
+2025-06-24 16:33:05.384 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:33:05.385 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:33:05.390 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 5.7076ms
+2025-06-24 16:33:05.386 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:33:05.543 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 156.9911ms
+2025-06-24 16:33:05.546 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:33:05.554 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 2516 text/javascript 169.8468ms
+2025-06-24 16:33:06.504 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:33:06.522 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:33:06.578 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:33:08.287 -04:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:33:08.384 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:33:08.412 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 1822.0428ms
+2025-06-24 16:33:08.415 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:33:08.433 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 1929.796ms
+2025-06-24 16:33:09.507 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:33:09.519 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:33:09.520 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 12.9844ms
+2025-06-24 16:33:09.635 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:33:09.639 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:33:09.640 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:33:09.651 -04:00 [INF] The file /js/site.js was not modified
+2025-06-24 16:33:09.663 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 23.1112ms
+2025-06-24 16:33:09.663 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 304 null text/javascript 29.0235ms
+2025-06-24 16:33:09.687 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.4332ms
+2025-06-24 16:33:10.200 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:33:10.216 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:33:10.217 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:33:10.246 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:33:10.257 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:33:10.265 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 46.6998ms
+2025-06-24 16:33:10.266 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:33:10.267 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 67.2163ms
+2025-06-24 16:35:07.457 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:35:07.474 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:35:07.493 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 37.6042ms
+2025-06-24 16:35:07.619 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:35:07.620 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:35:07.620 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:35:07.627 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 7.1039ms
+2025-06-24 16:35:07.694 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:35:07.714 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 2557 text/javascript 95.4358ms
+2025-06-24 16:35:07.717 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.6889ms
+2025-06-24 16:35:08.937 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:35:08.946 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:35:08.947 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:35:09.020 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:35:09.026 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:35:09.028 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 76.1231ms
+2025-06-24 16:35:09.044 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:35:09.046 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 108.6929ms
+2025-06-24 16:35:15.696 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:35:15.710 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:35:15.711 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 15.2246ms
+2025-06-24 16:35:15.859 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:35:15.908 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:35:15.910 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:35:15.978 -04:00 [INF] The file /js/site.js was not modified
+2025-06-24 16:35:16.079 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 168.6703ms
+2025-06-24 16:35:16.127 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 304 null text/javascript 267.6094ms
+2025-06-24 16:35:16.161 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 252.9419ms
+2025-06-24 16:35:16.645 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:35:16.775 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:35:16.795 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:35:16.806 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:35:16.813 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:35:16.848 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 52.0811ms
+2025-06-24 16:35:17.227 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:35:17.231 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 585.158ms
+2025-06-24 16:35:24.226 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:35:24.239 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 13.1838ms
+2025-06-24 16:39:08.512 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:39:08.650 -04:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\index.html'
+2025-06-24 16:39:08.653 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 200 null text/html 140.8849ms
+2025-06-24 16:39:08.902 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:39:08.907 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:39:08.909 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:39:08.925 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:39:08.936 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 28.5591ms
+2025-06-24 16:39:09.036 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 2557 text/javascript 133.8895ms
+2025-06-24 16:39:09.059 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 150.5566ms
+2025-06-24 16:39:13.303 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:39:13.470 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:39:13.990 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:39:14.576 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:39:15.360 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:39:15.388 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 814.1826ms
+2025-06-24 16:39:15.405 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:39:15.611 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 2307.2118ms
+2025-06-24 16:41:19.641 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:41:19.747 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:41:19.749 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 107.8828ms
+2025-06-24 16:41:20.459 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:41:20.461 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:41:20.496 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:41:20.631 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 170.3969ms
+2025-06-24 16:41:20.734 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:41:20.740 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 278.4515ms
+2025-06-24 16:41:20.749 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 3834 text/javascript 289.2403ms
+2025-06-24 16:43:10.125 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:43:10.151 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:43:10.154 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 29.1804ms
+2025-06-24 16:43:10.389 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:43:10.392 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:43:10.397 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:43:10.450 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 52.6753ms
+2025-06-24 16:43:10.454 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.6325ms
+2025-06-24 16:43:10.524 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:43:10.537 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 6086 text/javascript 147.7748ms
+2025-06-24 16:44:13.970 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:44:14.005 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:44:14.038 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 67.9467ms
+2025-06-24 16:44:14.441 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:44:14.444 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:44:14.453 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:44:14.536 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 83.1444ms
+2025-06-24 16:44:14.555 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.2129ms
+2025-06-24 16:44:14.609 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:44:14.625 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 8745 text/javascript 184.39ms
+2025-06-24 16:46:16.822 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:46:16.913 -04:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\index.html'
+2025-06-24 16:46:16.917 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 200 null text/html 94.7316ms
+2025-06-24 16:46:17.211 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:46:17.215 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:46:17.216 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:46:17.231 -04:00 [INF] The file /js/site.js was not modified
+2025-06-24 16:46:17.269 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 53.1001ms
+2025-06-24 16:46:17.274 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.6309ms
+2025-06-24 16:46:17.275 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 304 null text/javascript 63.7628ms
+2025-06-24 16:46:24.600 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:46:24.673 -04:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\index.html'
+2025-06-24 16:46:24.684 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 200 null text/html 84.3944ms
+2025-06-24 16:46:24.981 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:46:24.984 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:46:25.050 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 65.3919ms
+2025-06-24 16:46:25.084 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.0928ms
+2025-06-24 16:46:50.373 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:46:50.514 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:46:50.516 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 142.618ms
+2025-06-24 16:46:50.977 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:46:50.984 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:46:51.005 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:46:51.041 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 35.8805ms
+2025-06-24 16:46:51.091 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\js\site.js'
+2025-06-24 16:46:51.162 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.3929ms
+2025-06-24 16:46:51.174 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 200 5692 text/javascript 196.6879ms
+2025-06-24 16:49:08.792 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:49:09.156 -04:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio\wwwroot\index.html'
+2025-06-24 16:49:09.210 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 200 null text/html 418.2308ms
+2025-06-24 16:49:10.095 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:49:10.102 -04:00 [INF] The file /js/site.js was not modified
+2025-06-24 16:49:10.104 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 304 null text/javascript 8.8056ms
+2025-06-24 16:49:10.136 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:49:10.139 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:49:10.153 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 13.8121ms
+2025-06-24 16:49:10.172 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.381ms
+2025-06-24 16:49:12.253 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:49:12.264 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:49:12.270 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:49:12.286 -04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:49:12.292 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:49:12.300 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 25.2606ms
+2025-06-24 16:49:12.302 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:49:12.303 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 49.8454ms
+2025-06-24 16:49:16.671 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7253/api/tarefas - application/json 31
+2025-06-24 16:49:16.690 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio)'
+2025-06-24 16:49:16.734 -04:00 [INF] Route matched with {action = "PostTarefa", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TodoApiPortfolio.DTOs.TarefaDto]] PostTarefa(TodoApiPortfolio.DTOs.CriarTarefaDto) on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:49:17.443 -04:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Tarefas" ("DataDeValidade", "Feito", "Prioridade", "Titulo")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2025-06-24 16:49:17.569 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'TodoApiPortfolio.DTOs.TarefaDto'.
+2025-06-24 16:49:17.640 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio) in 898.0833ms
+2025-06-24 16:49:17.655 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.PostTarefa (TodoApiPortfolio)'
+2025-06-24 16:49:17.658 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7253/api/tarefas - 201 null application/json; charset=utf-8 987.5208ms
+2025-06-24 16:49:17.700 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:49:17.718 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:49:17.720 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:49:17.729 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:49:17.745 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:49:17.755 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 28.4696ms
+2025-06-24 16:49:17.756 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:49:17.758 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 58.6682ms
+2025-06-24 16:49:23.616 -04:00 [INF] Request starting HTTP/2 DELETE https://localhost:7253/api/tarefas/8 - null null
+2025-06-24 16:49:23.623 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.DeleteTarefa (TodoApiPortfolio)'
+2025-06-24 16:49:23.659 -04:00 [INF] Route matched with {action = "DeleteTarefa", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteTarefa(Int64) on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:49:24.018 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+WHERE "t"."Id" = @__p_0
+LIMIT 1
+2025-06-24 16:49:24.062 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Tarefas"
+WHERE "Id" = @p0
+RETURNING 1;
+2025-06-24 16:49:24.126 -04:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-24 16:49:24.129 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.DeleteTarefa (TodoApiPortfolio) in 459.5384ms
+2025-06-24 16:49:24.132 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.DeleteTarefa (TodoApiPortfolio)'
+2025-06-24 16:49:24.135 -04:00 [INF] Request finished HTTP/2 DELETE https://localhost:7253/api/tarefas/8 - 204 null null 519.4192ms
+2025-06-24 16:49:25.811 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/index.html - null null
+2025-06-24 16:49:25.861 -04:00 [INF] The file /index.html was not modified
+2025-06-24 16:49:25.870 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/index.html - 304 null text/html 59.6968ms
+2025-06-24 16:49:26.043 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js - null null
+2025-06-24 16:49:26.054 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:49:26.054 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:49:26.101 -04:00 [INF] The file /js/site.js was not modified
+2025-06-24 16:49:26.132 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 77.8722ms
+2025-06-24 16:49:26.140 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js - 304 null text/javascript 97.0546ms
+2025-06-24 16:49:26.159 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.6407ms
+2025-06-24 16:49:26.979 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/api/tarefas - null null
+2025-06-24 16:49:26.994 -04:00 [INF] Executing endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:49:27.007 -04:00 [INF] Route matched with {action = "GetTarefas", controller = "Tarefas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TodoApiPortfolio.DTOs.TarefaDto]]] GetTarefas() on controller TodoApiPortfolio.Controllers.TarefasController (TodoApiPortfolio).
+2025-06-24 16:49:27.341 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."DataDeValidade", "t"."Feito", "t"."Prioridade", "t"."Titulo"
+FROM "Tarefas" AS "t"
+2025-06-24 16:49:27.357 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TodoApiPortfolio.DTOs.TarefaDto, TodoApiPortfolio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-24 16:49:27.393 -04:00 [INF] Executed action TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio) in 53.9455ms
+2025-06-24 16:49:27.395 -04:00 [INF] Executed endpoint 'TodoApiPortfolio.Controllers.TarefasController.GetTarefas (TodoApiPortfolio)'
+2025-06-24 16:49:27.420 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/api/tarefas - 200 null application/json; charset=utf-8 440.9755ms
+2025-06-24 16:50:03.413 -04:00 [INF] A aplicação está a iniciar...
+2025-06-24 16:50:05.923 -04:00 [INF] Now listening on: https://localhost:7253
+2025-06-24 16:50:05.933 -04:00 [INF] Now listening on: http://localhost:5024
+2025-06-24 16:50:06.693 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-24 16:50:06.736 -04:00 [INF] Hosting environment: Development
+2025-06-24 16:50:06.762 -04:00 [INF] Content root path: C:\Users\leona\OneDrive\Documentos\Meus_Repos\TodoApiPortfolio
+2025-06-24 16:50:08.134 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger - null null
+2025-06-24 16:50:08.661 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger - 301 0 null 539.4596ms
+2025-06-24 16:50:08.692 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/index.html - null null
+2025-06-24 16:50:08.975 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/index.html - 200 null text/html;charset=utf-8 282.4645ms
+2025-06-24 16:50:09.620 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-06-24 16:50:09.626 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-24 16:50:09.680 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 53.8217ms
+2025-06-24 16:50:10.590 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 970.3253ms
+2025-06-24 16:50:11.452 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - null null
+2025-06-24 16:50:14.486 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7253/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3034.1768ms

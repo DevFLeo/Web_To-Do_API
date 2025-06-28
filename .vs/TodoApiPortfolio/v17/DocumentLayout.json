@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\todoapiportfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:todoapiportfolio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\validators\\criartarefadtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:validators\\criartarefadtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\todoapiportfolio.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:todoapiportfolio.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\interfaces\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:interfaces\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\dtos\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:dtos\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\dtos\\criartarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:dtos\\criartarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\migrations\\20250623165946_criacaoinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:migrations\\20250623165946_criacaoinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\todoapiportfolio.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:todoapiportfolio.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|c:\\users\\leona\\onedrive\\documentos\\meus_repos\\todoapiportfolio\\models\\prioridade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512C0395-15DA-4A98-BF5D-4E97094AE2CF}|TodoApiPortfolio.csproj|solutionrelative:models\\prioridade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 313,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-24T20:13:13.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoApiPortfolio.csproj",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\TodoApiPortfolio.csproj",
+              "RelativeDocumentMoniker": "TodoApiPortfolio.csproj",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\TodoApiPortfolio.csproj",
+              "RelativeToolTip": "TodoApiPortfolio.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-24T19:10:41.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T20:21:08.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:55:11.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarefaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Repositories\\TarefaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TarefaRepository.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Repositories\\TarefaRepository.cs",
+              "RelativeToolTip": "Repositories\\TarefaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:43:12.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoApiPortfolio.http",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\TodoApiPortfolio.http",
+              "RelativeDocumentMoniker": "TodoApiPortfolio.http",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\TodoApiPortfolio.http",
+              "RelativeToolTip": "TodoApiPortfolio.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-28T20:00:51.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CriarTarefaDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Validators\\CriarTarefaDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\CriarTarefaDtoValidator.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Validators\\CriarTarefaDtoValidator.cs",
+              "RelativeToolTip": "Validators\\CriarTarefaDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:11:13.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITarefaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Interfaces\\ITarefaRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITarefaRepository.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Interfaces\\ITarefaRepository.cs",
+              "RelativeToolTip": "Interfaces\\ITarefaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T18:26:09.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Helpers\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "Helpers\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Helpers\\MappingProfiles.cs",
+              "RelativeToolTip": "Helpers\\MappingProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:06:20.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TarefaDto.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\DTOs\\TarefaDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TarefaDto.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\DTOs\\TarefaDto.cs",
+              "RelativeToolTip": "DTOs\\TarefaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:04:38.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CriarTarefaDto.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\DTOs\\CriarTarefaDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CriarTarefaDto.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\DTOs\\CriarTarefaDto.cs",
+              "RelativeToolTip": "DTOs\\CriarTarefaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T19:05:09.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TarefasController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Controllers\\TarefasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TarefasController.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Controllers\\TarefasController.cs",
+              "RelativeToolTip": "Controllers\\TarefasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T18:28:39.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250623165946_CriacaoInicial.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Migrations\\20250623165946_CriacaoInicial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250623165946_CriacaoInicial.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Migrations\\20250623165946_CriacaoInicial.cs",
+              "RelativeToolTip": "Migrations\\20250623165946_CriacaoInicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T20:30:54.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-24T20:08:36.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TodoApiPortfolio",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\TodoApiPortfolio.csproj",
+              "RelativeDocumentMoniker": "TodoApiPortfolio.csproj",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\TodoApiPortfolio.csproj",
+              "RelativeToolTip": "TodoApiPortfolio.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-24T19:43:48.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T17:23:51.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TodoContext.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Models\\TodoContext.cs",
+              "RelativeDocumentMoniker": "Models\\TodoContext.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Models\\TodoContext.cs",
+              "RelativeToolTip": "Models\\TodoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:48:30.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Models\\Tarefa.cs",
+              "RelativeDocumentMoniker": "Models\\Tarefa.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Models\\Tarefa.cs",
+              "RelativeToolTip": "Models\\Tarefa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:42:36.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Prioridade.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Models\\Prioridade.cs",
+              "RelativeDocumentMoniker": "Models\\Prioridade.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\Models\\Prioridade.cs",
+              "RelativeToolTip": "Models\\Prioridade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:41:57.744Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 87,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "y9f80SXzUwVk+Ghb6k9OrWEyMDhRJGLObLYEyOgGA0o=",
+  "Source": "TodoApiPortfolio",
+  "BasePath": "_content/TodoApiPortfolio",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TodoApiPortfolio\\wwwroot",
+      "Source": "TodoApiPortfolio",
+      "ContentRoot": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\",
+      "BasePath": "_content/TodoApiPortfolio",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\index.html",
+      "SourceId": "TodoApiPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\",
+      "BasePath": "_content/TodoApiPortfolio",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9o4a6nt18i",
+      "Integrity": "1zdHwh15Ju2ySqPI07JaeYXaw/UE1TyXRJ22K5GQQB8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\js\\site.js",
+      "SourceId": "TodoApiPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\",
+      "BasePath": "_content/TodoApiPortfolio",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x3d3wnekt1",
+      "Integrity": "HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.9o4a6nt18i.html",
+      "AssetFile": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1499"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1zdHwh15Ju2ySqPI07JaeYXaw/UE1TyXRJ22K5GQQB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 20:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9o4a6nt18i"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1zdHwh15Ju2ySqPI07JaeYXaw/UE1TyXRJ22K5GQQB8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1499"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1zdHwh15Ju2ySqPI07JaeYXaw/UE1TyXRJ22K5GQQB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 20:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1zdHwh15Ju2ySqPI07JaeYXaw/UE1TyXRJ22K5GQQB8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5692"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 20:46:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.x3d3wnekt1.js",
+      "AssetFile": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5692"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 20:46:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x3d3wnekt1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI="
+        }
+      ]
+    }
+  ]
+}
