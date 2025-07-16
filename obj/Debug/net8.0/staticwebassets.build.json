@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y9f80SXzUwVk+Ghb6k9OrWEyMDhRJGLObLYEyOgGA0o=",
+  "Hash": "tOkEHRnnrXlJtUkKAVouk4vmV37ICK2k8arUklhseHo=",
   "Source": "TodoApiPortfolio",
   "BasePath": "_content/TodoApiPortfolio",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "x3d3wnekt1",
-      "Integrity": "HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI=",
+      "Fingerprint": "6seevkfk58",
+      "Integrity": "VoG9kMslnZYPlzK/ot0wRsetTx+pxQrUXRBSDF1/774=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -143,6 +143,51 @@
       ]
     },
     {
+      "Route": "js/site.6seevkfk58.js",
+      "AssetFile": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VoG9kMslnZYPlzK/ot0wRsetTx+pxQrUXRBSDF1/774=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 20:42:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6seevkfk58"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VoG9kMslnZYPlzK/ot0wRsetTx+pxQrUXRBSDF1/774="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -153,7 +198,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5692"
+          "Value": "5111"
         },
         {
           "Name": "Content-Type",
@@ -161,11 +206,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI=\""
+          "Value": "\"VoG9kMslnZYPlzK/ot0wRsetTx+pxQrUXRBSDF1/774=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 20:46:49 GMT"
+          "Value": "Sat, 28 Jun 2025 20:42:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -175,52 +220,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.x3d3wnekt1.js",
-      "AssetFile": "C:\\Users\\leona\\OneDrive\\Documentos\\Meus_Repos\\TodoApiPortfolio\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5692"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 20:46:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "x3d3wnekt1"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HSF85H88auw1EpS1S82g5y0IG6HA0rO9qI4ZOd9mnqI="
+          "Value": "sha256-VoG9kMslnZYPlzK/ot0wRsetTx+pxQrUXRBSDF1/774="
         }
       ]
     }

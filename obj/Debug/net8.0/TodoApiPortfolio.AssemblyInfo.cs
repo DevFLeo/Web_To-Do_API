@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoApiPortfolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee65ac2f0453914a30c0d553aa7a40cd6271051e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoApiPortfolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoApiPortfolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

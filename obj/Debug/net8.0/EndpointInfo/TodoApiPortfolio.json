@@ -10,10 +10,9 @@
         "tags": [
           "Tarefas"
         ],
-        "summary": "Obtém uma lista de todas as tarefas.",
         "responses": {
           "200": {
-            "description": "Retorna a lista de tarefas com sucesso.",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -47,9 +46,7 @@
         "tags": [
           "Tarefas"
         ],
-        "summary": "Cria uma nova tarefa.",
         "requestBody": {
-          "description": "O objeto com os dados para a nova tarefa.",
           "content": {
             "application/json": {
               "schema": {
@@ -70,7 +67,7 @@
         },
         "responses": {
           "201": {
-            "description": "Retorna a tarefa recém-criada com sucesso.",
+            "description": "Created",
             "content": {
               "text/plain": {
                 "schema": {
@@ -90,7 +87,7 @@
             }
           },
           "400": {
-            "description": "Se os dados fornecidos para a tarefa forem inválidos.",
+            "description": "Bad Request",
             "content": {
               "text/plain": {
                 "schema": {
@@ -117,12 +114,10 @@
         "tags": [
           "Tarefas"
         ],
-        "summary": "Obtém uma tarefa específica pelo seu ID.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
-            "description": "O ID da tarefa a ser procurada.",
             "required": true,
             "schema": {
               "type": "integer",
@@ -132,7 +127,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Retorna a tarefa solicitada com sucesso.",
+            "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
@@ -152,7 +147,7 @@
             }
           },
           "404": {
-            "description": "Se a tarefa com o ID especificado não for encontrada.",
+            "description": "Not Found",
             "content": {
               "text/plain": {
                 "schema": {
@@ -177,12 +172,10 @@
         "tags": [
           "Tarefas"
         ],
-        "summary": "Atualiza uma tarefa existente.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
-            "description": "O ID da tarefa a ser atualizada.",
             "required": true,
             "schema": {
               "type": "integer",
@@ -191,7 +184,6 @@
           }
         ],
         "requestBody": {
-          "description": "O objeto da tarefa com os dados atualizados.",
           "content": {
             "application/json": {
               "schema": {
@@ -212,10 +204,10 @@
         },
         "responses": {
           "204": {
-            "description": "Se a tarefa foi atualizada com sucesso."
+            "description": "No Content"
           },
           "400": {
-            "description": "Se o ID da URL não corresponder ao ID do corpo da requisição.",
+            "description": "Bad Request",
             "content": {
               "text/plain": {
                 "schema": {
@@ -235,7 +227,7 @@
             }
           },
           "404": {
-            "description": "Se a tarefa com o ID especificado não for encontrada.",
+            "description": "Not Found",
             "content": {
               "text/plain": {
                 "schema": {
@@ -260,12 +252,10 @@
         "tags": [
           "Tarefas"
         ],
-        "summary": "Apaga uma tarefa específica pelo seu ID.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
-            "description": "O ID da tarefa a ser apagada.",
             "required": true,
             "schema": {
               "type": "integer",
@@ -275,10 +265,10 @@
         ],
         "responses": {
           "204": {
-            "description": "Se a tarefa foi apagada com sucesso."
+            "description": "No Content"
           },
           "404": {
-            "description": "Se a tarefa com o ID especificado não for encontrada.",
+            "description": "Not Found",
             "content": {
               "text/plain": {
                 "schema": {
